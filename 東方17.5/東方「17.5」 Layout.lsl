@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1946</X>
-  <Y>92</Y>
+  <X>803</X>
+  <Y>166</Y>
   <VerticalWidth>317</VerticalWidth>
-  <VerticalHeight>832</VerticalHeight>
+  <VerticalHeight>732</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -27,7 +27,7 @@
     <TimesFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAoEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TimesFont>
     <TimerFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAdDYWxpYnJp5DheQgX8////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAgAAAAEAAAAF+////xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==]]></TimerFont>
     <TextFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAoEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TextFont>
-    <AlwaysOnTop>True</AlwaysOnTop>
+    <AlwaysOnTop>False</AlwaysOnTop>
     <ShowBestSegments>True</ShowBestSegments>
     <AntiAliasing>True</AntiAliasing>
     <DropShadows>True</DropShadows>
@@ -68,19 +68,19 @@
       <Settings />
     </Component>
     <Component>
-      <Path>LiveSplit.Splits.dll</Path>
+      <Path>LiveSplit.Subsplits.dll</Path>
       <Settings>
-        <Version>1.6</Version>
+        <Version>1.7</Version>
         <CurrentSplitTopColor>FF3373F4</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
-        <VisualSplitCount>10</VisualSplitCount>
-        <SplitPreviewCount>2</SplitPreviewCount>
+        <VisualSplitCount>8</VisualSplitCount>
+        <SplitPreviewCount>1</SplitPreviewCount>
+        <MinimumMajorSplits>0</MinimumMajorSplits>
         <DisplayIcons>True</DisplayIcons>
-        <ShowThinSeparators>True</ShowThinSeparators>
+        <ShowThinSeparators>False</ShowThinSeparators>
         <AlwaysShowLastSplit>True</AlwaysShowLastSplit>
         <SplitWidth>20</SplitWidth>
         <SplitTimesAccuracy>Seconds</SplitTimesAccuracy>
-        <AutomaticAbbreviations>False</AutomaticAbbreviations>
         <BeforeNamesColor>FFFFFFFF</BeforeNamesColor>
         <CurrentNamesColor>FFFFFFFF</CurrentNamesColor>
         <AfterNamesColor>FFFFFFFF</AfterNamesColor>
@@ -89,21 +89,48 @@
         <CurrentTimesColor>FFFFFFFF</CurrentTimesColor>
         <AfterTimesColor>FFFFFFFF</AfterTimesColor>
         <OverrideTimesColor>False</OverrideTimesColor>
-        <ShowBlankSplits>True</ShowBlankSplits>
         <LockLastSplit>True</LockLastSplit>
-        <IconSize>68</IconSize>
+        <IconSize>80</IconSize>
         <IconShadows>True</IconShadows>
-        <SplitHeight>18.8</SplitHeight>
+        <SplitHeight>22.2</SplitHeight>
         <CurrentSplitGradient>Vertical</CurrentSplitGradient>
-        <BackgroundColor>006400FF</BackgroundColor>
+        <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>01FFFFFF</BackgroundColor2>
-        <BackgroundGradient>Plain</BackgroundGradient>
+        <BackgroundGradient>Alternating</BackgroundGradient>
         <SeparatorLastSplit>True</SeparatorLastSplit>
         <DeltasAccuracy>Tenths</DeltasAccuracy>
         <DropDecimals>True</DropDecimals>
         <OverrideDeltasColor>False</OverrideDeltasColor>
         <DeltasColor>FFFFFFFF</DeltasColor>
+        <HeaderComparison>Personal Best</HeaderComparison>
+        <HeaderTimingMethod>Current Timing Method</HeaderTimingMethod>
         <Display2Rows>True</Display2Rows>
+        <IndentBlankIcons>True</IndentBlankIcons>
+        <IndentSubsplits>True</IndentSubsplits>
+        <HideSubsplits>False</HideSubsplits>
+        <ShowSubsplits>False</ShowSubsplits>
+        <CurrentSectionOnly>False</CurrentSectionOnly>
+        <OverrideSubsplitColor>False</OverrideSubsplitColor>
+        <SubsplitGradient>Plain</SubsplitGradient>
+        <ShowHeader>True</ShowHeader>
+        <IndentSectionSplit>True</IndentSectionSplit>
+        <ShowIconSectionSplit>True</ShowIconSectionSplit>
+        <ShowSectionIcon>True</ShowSectionIcon>
+        <HeaderGradient>Vertical</HeaderGradient>
+        <OverrideHeaderColor>False</OverrideHeaderColor>
+        <HeaderText>True</HeaderText>
+        <HeaderTimes>True</HeaderTimes>
+        <HeaderAccuracy>Tenths</HeaderAccuracy>
+        <SectionTimer>True</SectionTimer>
+        <SectionTimerGradient>True</SectionTimerGradient>
+        <SectionTimerAccuracy>Tenths</SectionTimerAccuracy>
+        <SubsplitTopColor>8D000000</SubsplitTopColor>
+        <SubsplitBottomColor>00FFFFFF</SubsplitBottomColor>
+        <HeaderTopColor>2BFFFFFF</HeaderTopColor>
+        <HeaderBottomColor>D8000000</HeaderBottomColor>
+        <HeaderTextColor>FFFFFFFF</HeaderTextColor>
+        <HeaderTimesColor>FFFFFFFF</HeaderTimesColor>
+        <SectionTimerColor>FF777777</SectionTimerColor>
         <ShowColumnLabels>True</ShowColumnLabels>
         <LabelsColor>FFFFFFFF</LabelsColor>
         <Columns>
@@ -118,7 +145,7 @@
             <Version>1.5</Version>
             <Name>Split △</Name>
             <Type>SegmentDelta</Type>
-            <Comparison>Current Comparison</Comparison>
+            <Comparison>Personal Best</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
           <Settings>
@@ -130,10 +157,10 @@
           </Settings>
           <Settings>
             <Version>1.5</Version>
-            <Name>WR IGT</Name>
-            <Type>SegmentTime</Type>
-            <Comparison>WR</Comparison>
-            <TimingMethod>Game Time</TimingMethod>
+            <Name>μ Seg.</Name>
+            <Type>SegmentDeltaorSegmentTime</Type>
+            <Comparison>Average Segments</Comparison>
+            <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
         </Columns>
       </Settings>
@@ -248,6 +275,15 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Display2Rows>True</Display2Rows>
+      </Settings>
+    </Component>
+    <Component>
+      <Path>LiveSplit.AutoSplitIntegration.dll</Path>
+      <Settings>
+        <Version>1.8</Version>
+        <AutoSplitPath>D:\tools\AutoSplit_1.6.1\AutoSplit.exe</AutoSplitPath>
+        <SettingsPath>D:\tools\AutoSplit_1.6.1\settings.pkl</SettingsPath>
+        <GameTimePausing>False</GameTimePausing>
       </Settings>
     </Component>
   </Components>
