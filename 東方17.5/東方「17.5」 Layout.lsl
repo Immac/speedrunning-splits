@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>803</X>
-  <Y>166</Y>
+  <X>1335</X>
+  <Y>136</Y>
   <VerticalWidth>317</VerticalWidth>
   <VerticalHeight>732</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -71,6 +71,7 @@
       <Path>LiveSplit.Subsplits.dll</Path>
       <Settings>
         <Version>1.7</Version>
+        <AutomaticAbbreviation>False</AutomaticAbbreviation>
         <CurrentSplitTopColor>FF3373F4</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
         <VisualSplitCount>8</VisualSplitCount>
@@ -275,15 +276,6 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Display2Rows>True</Display2Rows>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.AutoSplitIntegration.dll</Path>
-      <Settings>
-        <Version>1.8</Version>
-        <AutoSplitPath>D:\tools\AutoSplit_1.6.1\AutoSplit.exe</AutoSplitPath>
-        <SettingsPath>D:\tools\AutoSplit_1.6.1\settings.pkl</SettingsPath>
-        <GameTimePausing>False</GameTimePausing>
       </Settings>
     </Component>
   </Components>
